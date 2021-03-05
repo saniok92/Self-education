@@ -1,6 +1,7 @@
-FROM nginx: 1.18.0, stable, 1.18
+FROM nginx:1.18.0
 
-WORKDIR /home/koval/app
+EXPOSE 8888
 
+WORKDIR /app
 
-CMD [ "nginx" ]
+COPY nginx.conf /etc/nginx/nginx.conf
