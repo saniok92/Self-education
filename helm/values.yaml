@@ -1,0 +1,4 @@
+container:
+  image: saniok92/app-1:1
+
+replicaCount: 1 

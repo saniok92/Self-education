@@ -1,0 +1,17 @@
+apiVersion: v2
+name: App-HelmChart
+description: My Helm chart 
+type: application
+version: 0.1.0    # Helm Chart version
+appVersion: "any" # version of the application being deployed
+
+keywords:
+  - app
+  - nginx
+  - http
+  - https
+
+mainteiners:
+  - name: Koval
+    email: admin@admin.com
+    url: www.admin.com
