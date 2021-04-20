@@ -1,0 +1,4 @@
+container:
+  image: postgres:13.2-alpine
+
+replicaCount: 1

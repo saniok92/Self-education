@@ -1,0 +1,15 @@
+apiVersion: v2
+name: postgres-HelmChart
+description: Helm Chart k8s for DigitalOkean
+type: application
+version: 0.0.1       #helm chart version
+appVersion: 0.0.1
+
+keywords: 
+  - postgres
+  - pgadmin
+  - http
+
+mainteiners:
+  - name: Alexander koval
+    email: kovalsaniok@gmail.com

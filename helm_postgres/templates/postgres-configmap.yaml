@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres
+data:
+  POSTGRES_DB: k8s
+  POSTGRES_USER: admin
